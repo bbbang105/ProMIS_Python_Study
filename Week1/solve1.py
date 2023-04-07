@@ -1,9 +1,6 @@
 sen = 'i lovee promis'
 
-x = 'ilpms' # 바꿀 문자를 지정
-y = 'ILPMS' # x에서 지정한 문자를 대체할 문자
+new_sen = sen[:5] + sen[6:-3] # 문자열 슬라이싱을 통해 e와 mis 제거
+up_mis = sen[-3:].upper() # upper() 메소드를 사용해 대문자 MIS 생성
 
-trans = sen.maketrans(x,y) # 문자열 대체 매핑 테이블 설정
-new_sen = sen.translate(trans) # 대체하여 새로운 문장 생성
-
-print(new_sen[:6] + new_sen[7:] + '!') # 문자열 슬라이싱, 이어붙이기
+print(new_sen.title() + up_mis + '!') # title() 메소드를 사용, 문자열 이어 붙여 출력
