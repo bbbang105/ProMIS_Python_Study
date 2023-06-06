@@ -11,7 +11,8 @@ while 1:
     else:
         print('현재 도감에 없는 번호입니다:(')
 
-    response = input(print('더 알아보시겠습니까?(Y/N):'))
+    # 멘토: 다 너무 잘해주셨는데, 여기서 input 안에 print를 넣어서 None까지 같이 출력되고 있어요. print는 빼주시면 됩니다!
+    response = input('더 알아보시겠습니까?(Y/N):')
     if response.upper() == 'N':
         print('포켓몬 도감을 종료합니다 :)')
         break
