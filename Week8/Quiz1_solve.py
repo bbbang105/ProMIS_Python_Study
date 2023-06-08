@@ -4,7 +4,7 @@ while True:
     score = int(input('학생의 점수를 입력해주세요: '))
     
     if score < 0 or score > 100: # 올바르지 않은 점수 입력일 경우
-        print('범위를 초과했습니다. 점수를 다시 입력해주세요.')
+        print('범위를 초과했습니다. 점수를 다시 입력해주세요!')
         continue
     
     score_lst.append(score)  # list에 추가
