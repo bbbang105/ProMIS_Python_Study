@@ -1,6 +1,6 @@
-# 동국대학교 경영정보학과 개발 소모임 ProMIS에서 진행한 8주간의 Python Study 멘토 활동 기록입니다 📝
+## 동국대학교 경영정보학과 개발 소모임 ProMIS에서 진행한 8주간의 Python Study 멘토 활동 기록입니다 📝
 
-## Outline
+### [Outline]
 
 ### 1. 스터디 목적
 
